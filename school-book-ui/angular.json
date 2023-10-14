@@ -106,5 +106,8 @@
       }
     }
   },
-  "defaultProject": "school-book-ui"
+  "defaultProject": "school-book-ui",
+  "cli": {
+    "analytics": false
+  }
 }

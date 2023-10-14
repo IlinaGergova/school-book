@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9d6eadf-0d49-406b-b867-96451793ec07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/SchoolBook/views/controllers/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/SchoolBook/views/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/SchoolBook/views/models/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SchoolBook.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/6474cc6bf89333a31ca9539f4bfaea6d4ab48447/0.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/6474cc6bf89333a31ca9539f4bfaea6d4ab48447/1.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/6474cc6bf89333a31ca9539f4bfaea6d4ab48447/2.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/6474cc6bf89333a31ca9539f4bfaea6d4ab48447/3.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/6474cc6bf89333a31ca9539f4bfaea6d4ab48447/4.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/6474cc6bf89333a31ca9539f4bfaea6d4ab48447/5.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/6474cc6bf89333a31ca9539f4bfaea6d4ab48447/index.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/6474cc6bf89333a31ca9539f4bfaea6d4ab48447/index.pack.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/69065718da9aefa2d26a93c71acedd4e549f423a/0.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/69065718da9aefa2d26a93c71acedd4e549f423a/1.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/69065718da9aefa2d26a93c71acedd4e549f423a/2.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/69065718da9aefa2d26a93c71acedd4e549f423a/3.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/69065718da9aefa2d26a93c71acedd4e549f423a/4.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/69065718da9aefa2d26a93c71acedd4e549f423a/5.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/69065718da9aefa2d26a93c71acedd4e549f423a/6.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/69065718da9aefa2d26a93c71acedd4e549f423a/index.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/69065718da9aefa2d26a93c71acedd4e549f423a/index.pack.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/be831e6e41eadccf4394fa4f705373fd4d07c4fc/0.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/be831e6e41eadccf4394fa4f705373fd4d07c4fc/index.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/fdb1603ca95842a90de821dbfe859aa54b6f486c/0.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/angular-webpack/fdb1603ca95842a90de821dbfe859aa54b6f486c/index.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/033514e44e7c1c53b9f0c3651f0e6de4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/0777ffc57702c63b15e7d394c0296e4c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/0be8de61cc8de13c5221baf3f3a96fd0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/0bfd096c0b45d3e469cdd391c3a1e573.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/107fd8b1e85ede77b8316dda2ae156c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/12621217fb9631af05b771c511f026f1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/12afb4e7dd07e33bfe9fc49ce11f54d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/16b95c5ff9d222bd1ade2d4ab46fc202.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/1dee243c8f089cc44e4e32ff7a788e59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/2399d9ce7a4964ac5105d4b95b0ffd5f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/2628f0f89b08d233a9cfee98f12046c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/3305bde16380d0e7b1bfaa7a724d1690.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/335011134cf80b4a109724a985f1f639.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/335f5de9438b5ef1b65840fbafecac24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/342e32f7a490bc9b247c27b8cc565a15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/34840274926d3485401c3af6a737fe1e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/3f165becfdee6b029d22168d7130f333.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/3fcc45e1b54f15754128d680a7e9d80f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/483744dc109a3f74ff5c3c5b07bd0845.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/51d5a2e761c00c4297a2e7ba5fa92541.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/58d4f06f825949ad1465ce05cd91ecc8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/5f57c8dd9fcec45123d32265e3efe6a1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/692959ceb8c9c6c328f359ca813918ee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/6a2d561b24c5e53e45c4c2c025ec8e1b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/6cb5e8505c5acfc979436b0c540b8114.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/6fb8997005dc879c9b1b70e573f480f1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/78c87dde5e360b58605e0b77256471ac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/7b58cb9e0f75e5e6dd4debfbb8e0f87f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/7c6688f52522c39ab7aa876d7df24f74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/8002b5738aa44698ada936563a693ec6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/84e6193fbee070a61da72a9f82b3c53c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/850cd66ab98d5bf1f652ccc1f3c336de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/872326c4d750831519cdfaf41c981839.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/8791b0d5bf4efbfb8d3255110821f9a7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/88796bb820ead53b9858960c556c5e99.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/8ca02940084ac34c29b0476ac8931d1b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/95bc0441edbbdce281279ad6e8b70a18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/98143fbe53a39a0b3e2b8e9836b9c04f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/9aa9683dfa1c46d74c62bfbcd9edb2f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/a355262d9da09c212d7e606174438461.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/a3593bc294816d32ea2f8c0038ea6684.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/a3a21d2e6fa136fcc2669ad93d0c1daf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/ad81c444a1850dd743cb15db4760aa8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/ad89fda2b2918ccf4785f271b83c8057.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/af3b2c14659fa32ad9adb970cffd51e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/b9b3ab9cdf8b50aab613b0ef2173b2db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/ba0b0e95f78f2777b76788eb76e7a49e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/bbb9d1dd9f509f33c3e1e6896a355d88.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/bc3d92029f912bd138b9765df46d309e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/bd39e393eefa0c01dc2667050c29f8fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/bd560cf4fb300d02d9ba6394b598b5c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/bf8ed6996b7467697f0b815696b1d68e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/c08a3f0308a17b99183a43c0933fc362.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/c2b4eb5da36237053328c7012f7579bc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/ca75e06ef86d260c3ba48e3eb3457c9e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/d39aaf0a6767167cb11b11c7a30c3821.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/d9bf79e187e3328c0060201b37cd5d6a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/e37592919643ec8c139ef3a4973b7ebe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/ee4762365b83c05fa2952d8281d266b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/f0e5d8841b50d3054f58ab93337a81a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/f34a46a04777e465f4bd0c14b95abd83.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/f55441c4267ccacbd0aa6bf232e085ae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/f64ad21c11a16d9a38d2ca0a205f1899.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/f92388f46dd492824da3e64b66549d84.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/fa1900b04c02832c357fc7c22f93ef63.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/fb071b0af63d854c05bbb9e9f714312b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/fb8012f95355205f68da572a0f80953a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/fcb7d9dd48437e3bb1e5e906d6fdb98d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/.angular/cache/13.3.11/babel-webpack/fd2581a4f4baac078032f9cc06eba13c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../school-book-ui/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../school-book-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../school-book-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../school-book-ui/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Wl80JinYycEGCjId8pRoKn9H3q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SchoolBookApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.SchoolBook.SchoolBookApplication" />
+      <module name="SchoolBook.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.SchoolBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SchoolBookApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9d6eadf-0d49-406b-b867-96451793ec07" name="Changes" comment="" />
+      <created>1697295583216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697295583216</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,50 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+/school-book-ui/docs
+
+# compiled output
+/school-book-ui/dist
+/school-book-ui/tmp
+
+# dependencies
+/school-book-ui/node_modules
+
+# IDEs and editors
+/school-book-ui/.idea
+/school-book-ui/.project
+/school-book-ui/.classpath
+/school-book-ui/.c9/
+/school-book-ui/*.launch
+/school-book-ui/.settings/
+
+# IDE - VSCode
+/school-book-ui/.vscode
+/school-book-ui/.vscode/*
+/school-book-ui/!.vscode/settings.json
+/school-book-ui/!.vscode/tasks.json
+/school-book-ui/!.vscode/launch.json
+/school-book-ui/!.vscode/extensions.json
+
+# misc
+/school-book-ui/.sass-cache
+/school-book-ui/connect.lock
+/school-book-ui/coverage/*
+/school-book-ui/libpeerconnection.log
+/school-book-ui/npm-debug.log
+/school-book-ui/testem.log
+/school-book-ui/typings
+/school-book-ui/package-lock.json
+/school-book-ui/css-lint-report.xml
+/school-book-ui/ts-lint-report.xml
+/school-book-ui/.angular
+
+#System Files
+.DS_Store
+Thumbs.db
+*.swp
+
+# npm package-lock
+/school-book-ui/package-lock.json
+
+# build scripts
+/school-book-ui/build-env
