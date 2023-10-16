@@ -1,8 +1,8 @@
 package com.project.SchoolBook.views.controllers;
 
-import com.project.SchoolBook.dto.StudentDTO;
-import com.project.SchoolBook.services.StudentService;
-import com.project.SchoolBook.views.models.StudentModel;
+import com.project.SchoolBook.dto.ParentDTO;
+import com.project.SchoolBook.services.ParentService;
+import com.project.SchoolBook.views.models.ParentModel;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
@@ -19,51 +19,51 @@ import java.util.stream.Collectors;
 @Controller
 @AllArgsConstructor
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping(value = "/student", method = RequestMethod.POST)
-public class StudentController {
-    private final StudentService studentService;
+@RequestMapping(value = "/parent", method = RequestMethod.POST)
+public class ParentController {
+    private final ParentService parentService;
     private final ModelMapper modelMapper;
 
-    private StudentModel convertToStudentModel(StudentDTO studentDTO) {
-        return modelMapper.map(studentDTO, StudentModel.class);
+    private ParentModel convertToParentModel(ParentDTO parentDTO) {
+        return modelMapper.map(parentDTO, ParentModel.class);
     }
 
     @GetMapping("/students")
     ResponseEntity<Object> getStudents(Model model) {
-        final List<StudentModel> students = studentService.getStudents()
+        final List<ParentModel> parents = parentService.getParents()
                 .stream()
-                .map(this::convertToStudentModel)
+                .map(this::convertToParentModel)
                 .collect(Collectors.toList());
-        model.addAttribute("students", students);
-        return new ResponseEntity<Object>(students, HttpStatus.OK);
+        model.addAttribute("parents", parents);
+        return new ResponseEntity<Object>(parents, HttpStatus.OK);
     }
 
     @PostMapping("/create")
-    public ResponseEntity<Object> createStudent(@Valid @ModelAttribute("student") StudentModel studentModel,
-                                             BindingResult bindingResult) {
+    public ResponseEntity<Object> createParent(@Valid @ModelAttribute("parent") ParentModel parentModel,
+                                                BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             return new ResponseEntity<Object>(HttpStatus.BAD_REQUEST);
         }
-        studentService.create(modelMapper.map(studentModel, StudentDTO.class));
+        parentService.create(modelMapper.map(parentModel, ParentDTO.class));
         return new ResponseEntity<Object>(HttpStatus.OK);
     }
 
     @PostMapping("/update/{id}")
-    public ResponseEntity<Object> updateStudent(
+    public ResponseEntity<Object> updateParent(
             @PathVariable long id,
-            @Valid @ModelAttribute("student") StudentModel studentModel,
+            @Valid @ModelAttribute("parent") ParentModel parentModel,
             BindingResult bindingResult)
     {
         if (bindingResult.hasErrors()) {
             return new ResponseEntity<Object>(HttpStatus.BAD_REQUEST);
         }
-        studentService.updateStudent(id, modelMapper.map(studentModel, StudentDTO.class));
+        parentService.updateParent(id, modelMapper.map(parentModel, ParentDTO.class));
         return new ResponseEntity<Object>(HttpStatus.OK);
     }
 
     @GetMapping("/delete/{id}")
-    public ResponseEntity<Object> deleteStudent(@PathVariable int id) {
-        studentService.deleteStudent(id);
+    public ResponseEntity<Object> deleteParent(@PathVariable int id) {
+        parentService.deleteParent(id);
         return new ResponseEntity<Object>(HttpStatus.OK);
     }
 }

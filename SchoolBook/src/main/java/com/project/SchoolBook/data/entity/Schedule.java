@@ -36,6 +36,4 @@ public class Schedule extends BaseEntity {
     @NotNull
     @Enumerated
     private Date date;
-
-
 }

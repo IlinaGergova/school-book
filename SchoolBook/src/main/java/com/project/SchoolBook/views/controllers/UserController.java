@@ -21,6 +21,7 @@ import java.util.stream.Collectors;
 
 @Controller
 @AllArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping(value = "/user", method = RequestMethod.POST)
 public class UserController {
     private final UserService userService;
@@ -79,7 +80,7 @@ public class UserController {
     }
 
     @GetMapping("/delete/{id}")
-    public  ResponseEntity<Object> deleteUser(@PathVariable int id) {
+    public ResponseEntity<Object> deleteUser(@PathVariable int id) {
         userService.deleteUser(id);
         return new ResponseEntity<Object>(HttpStatus.OK);
     }
