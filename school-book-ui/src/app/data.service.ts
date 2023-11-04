@@ -16,9 +16,11 @@ export class DataService {
 
   public login(username: string, password: string): Observable<User> {
     return this.http.post<User>(
-      '/api/auth/signin',
+      'http://localhost:8081/user/login',
       { username: username, password: password },
-      { headers: {'X-CSRFToken': this.cookieService.get('csrftoken')} }
+      { headers: {
+        'X-CSRFToken': this.cookieService.get('csrftoken'),
+      }}
     );
   }
 }

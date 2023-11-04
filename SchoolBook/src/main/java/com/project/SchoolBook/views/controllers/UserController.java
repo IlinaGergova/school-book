@@ -2,28 +2,31 @@ package com.project.SchoolBook.views.controllers;
 
 import com.project.SchoolBook.dto.UserDTO;
 import com.project.SchoolBook.services.UserService;
+import com.project.SchoolBook.views.models.LoginModel;
 import com.project.SchoolBook.views.models.UserModel;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Controller
+@RestController
 @AllArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping(value = "/user", method = RequestMethod.POST)
 public class UserController {
+    private AuthenticationManager authenticationManager;
     private final UserService userService;
     private final ModelMapper modelMapper;
 
@@ -39,6 +42,20 @@ public class UserController {
 //        model.addAttribute("user", client);
 //        return "/client/client-home";
 //    }
+    @PostMapping("/login")
+    public ResponseEntity<Object> loginUser(
+            @Valid @ModelAttribute("user") LoginModel loginModel,
+            BindingResult bindingResult)
+    {
+        if (bindingResult.hasErrors()) {
+            return new ResponseEntity<Object>(HttpStatus.BAD_REQUEST);
+        }
+        Authentication authentication = authenticationManager
+                .authenticate(new UsernamePasswordAuthenticationToken(loginModel.getUsername(), loginModel.getPassword()));
+        SecurityContextHolder.getContext().setAuthentication(authentication);
+        return new ResponseEntity<Object>("Login successful.", HttpStatus.OK);
+    }
+
     @GetMapping("/users")
     ResponseEntity<Object> getUsers(Model model) {
         final List<UserModel> users = userService.getUsers()
