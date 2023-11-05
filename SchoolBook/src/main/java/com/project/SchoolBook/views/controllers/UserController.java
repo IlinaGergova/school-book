@@ -7,6 +7,7 @@ import com.project.SchoolBook.views.models.UserModel;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -26,7 +27,7 @@ import java.util.stream.Collectors;
 //@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping(value = "/user", method = RequestMethod.POST)
 public class UserController {
-    private AuthenticationManager authenticationManager;
+//    private AuthenticationManager authenticationManager;
     private final UserService userService;
     private final ModelMapper modelMapper;
 
@@ -42,19 +43,23 @@ public class UserController {
 //        model.addAttribute("user", client);
 //        return "/client/client-home";
 //    }
-    @PostMapping("/login")
-    public ResponseEntity<Object> loginUser(
-            @Valid @ModelAttribute("user") LoginModel loginModel,
-            BindingResult bindingResult)
-    {
-        if (bindingResult.hasErrors()) {
-            return new ResponseEntity<Object>(HttpStatus.BAD_REQUEST);
-        }
-        Authentication authentication = authenticationManager
-                .authenticate(new UsernamePasswordAuthenticationToken(loginModel.getUsername(), loginModel.getPassword()));
-        SecurityContextHolder.getContext().setAuthentication(authentication);
-        return new ResponseEntity<Object>("Login successful.", HttpStatus.OK);
-    }
+//    @PostMapping("/login")
+//    public ResponseEntity<Object> loginUser(
+//            LoginModel loginModel,
+//            BindingResult bindingResult)
+//    {
+//        System.out.println("Login started +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+//        if (bindingResult.hasErrors()) {
+//            return new ResponseEntity<Object>(HttpStatus.BAD_REQUEST);
+//        }
+//        System.out.println("Authentication starting +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+//        Authentication authentication = authenticationManager
+//                .authenticate(new UsernamePasswordAuthenticationToken(loginModel.getUsername(), loginModel.getPassword()));
+//        System.out.println("GetContext +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+//        SecurityContextHolder.getContext().setAuthentication(authentication);
+//        System.out.println("Return starting +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+//        return new ResponseEntity<Object>("Login successful.", HttpStatus.OK);
+//    }
 
     @GetMapping("/users")
     ResponseEntity<Object> getUsers(Model model) {

@@ -12,15 +12,18 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import java.util.Arrays;
 
+import static org.springframework.security.config.Customizer.withDefaults;
+
 @Configuration
 public class SecurityConfig {
 
-   @Bean
-   public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-       http.formLogin().disable().cors();
-       http.csrf().disable();
-       return http.build();
-   }
+//   @Bean
+//   public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+////       http.formLogin().disable();
+////       http.cors();
+//       http.csrf().disable();
+//       return http.build();
+//   }
 
    @Bean
    CorsConfigurationSource corsConfigurationSource() {
@@ -33,9 +36,9 @@ public class SecurityConfig {
        return source;
    }
 
-    @Bean
-    public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
-        return http.getSharedObject(AuthenticationManagerBuilder.class)
-                .build();
-    }
+//    @Bean
+//    public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
+//        return http.getSharedObject(AuthenticationManagerBuilder.class)
+//                .build();
+//    }
 }
